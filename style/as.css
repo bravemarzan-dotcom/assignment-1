@@ -269,9 +269,15 @@ width: 20px;
   
 
 }
+check
 
 .container{
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 30px;
+}
+
+.section-container{
+  gap: 30px;
 }
