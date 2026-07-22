@@ -1,6 +1,4 @@
-/* ==========================================================
-   Global / Reset
-   ========================================================== */
+
 *{
     box-sizing: border-box;
 }
@@ -13,9 +11,6 @@ body{
     overflow-x: hidden;
 }
 
-/* ==========================================================
-   Hero section
-   ========================================================== */
 .bg-img{
     background-image: url(../Assets/Hero-bg.png);
     width: 100%;
@@ -115,9 +110,7 @@ body{
     padding: 40px 16px;
 }
 
-/* ==========================================================
-   "See it in action" section
-   ========================================================== */
+
 .first-description{
     font-family: "Raleway", sans-serif;
     font-size: clamp(16px, 2vw, 24px);
@@ -191,9 +184,7 @@ body{
     padding: 60px 5vw;
 }
 
-/* ==========================================================
-   Stats section
-   ========================================================== */
+
 .parent-third-section{
     background-color: rgba(78, 71, 255, 0.1);
     padding: 40px 24px;
@@ -250,9 +241,7 @@ body{
     min-width: 140px;
 }
 
-/* ==========================================================
-   Testimonials section
-   ========================================================== */
+
 .container{
     display: flex;
     flex-wrap: wrap;
@@ -326,9 +315,7 @@ body{
     flex: 1;
 }
 
-/* ==========================================================
-   Responsive breakpoints
-   ========================================================== */
+
 @media (max-width: 900px){
     .parent-img-title{
         flex-direction: column-reverse;
